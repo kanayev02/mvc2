@@ -1,0 +1,20 @@
+﻿<Window x:Class="mvc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mvc"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel>
+                <TextBox Name="pervoe"></TextBox>
+                <ComboBox Name="combo"></ComboBox>
+                <TextBox Name="vtoroe"></TextBox>
+            </StackPanel>
+            <Button Name="ravno" Width="75" Click="ravno_Click">Равно</Button>
+            <TextBlock Name="Ravno"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
